@@ -22,7 +22,7 @@ ml('account', '2752981');
 /* MailerLite form, restyled to match the site */
 #prep-sheet .ml-form-embedContainer,#prep-sheet .ml-form-embedWrapper{width:100%!important;max-width:100%!important;margin:0!important;background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important}
 #prep-sheet .ml-form-embedBody,#prep-sheet .ml-form-successBody{padding:0!important}
-#prep-sheet .ml-form-embedContent h4{display:none!important}
+#prep-sheet .ml-form-embedContent{display:none!important}
 #prep-sheet .ml-form-embedWrapper *{font-family:'Instrument Sans',system-ui,sans-serif!important}
 #prep-sheet .ml-form-embedContent p,#prep-sheet .ml-form-embedPermissions p,#prep-sheet .ml-form-embedPermissions a{font-size:14px!important;line-height:1.5!important;color:#3D4A63!important}
 #prep-sheet .ml-form-embedWrapper a{color:#1B2D4F!important;text-decoration:underline!important}
@@ -46,6 +46,7 @@ ml('account', '2752981');
 <nav aria-label="Main" style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 15px; font-weight: 500">
 <a href="#services" style="text-decoration: none">Services</a>
 <a href="#retainers" style="text-decoration: none">Retainers</a>
+<a href="#prep-sheet" style="text-decoration: none">Free template</a>
 <a href="#about" style="text-decoration: none">About</a>
 <a href="#contact" style="text-decoration: none; background: #1B2D4F; color: #FFFFFF; padding: 12px 20px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Request a conversation</a>
 </nav>
@@ -60,6 +61,7 @@ ml('account', '2752981');
 <div style="display: flex; flex-wrap: wrap; gap: 14px; margin-top: 40px">
 <a href="#retainers" style="background: #1B2D4F; color: #FFFFFF; text-decoration: none; padding: 15px 26px; font-weight: 600; font-size: 15px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">See retainers</a>
 <a href="#contact" style="border: 1px solid #1B2D4F; color: #1B2D4F; text-decoration: none; padding: 14px 26px; font-weight: 600; font-size: 15px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Request a conversation</a>
+<a href="#prep-sheet" style="color: #7A6233; text-decoration: none; padding: 14px 4px; font-weight: 600; font-size: 15px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 8px">Free interview prep template <span aria-hidden="true">→</span></a>
 </div>
 </div>
 </section>
@@ -95,44 +97,53 @@ ml('account', '2752981');
 </div>
 </section>
 
-<section id="services" style="max-width: 1200px; margin: 0 auto; padding: 104px 24px 96px">
-<div style="font-size: 15px; font-weight: 600; color: #7A6233; margin-bottom: 28px">Services</div>
-<div style="display: flex; flex-wrap: wrap; border-top: 1px solid #DDD8CE">
-<article style="flex: 1 1 340px; padding: 36px 32px 40px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #7A6233">I.</div>
-<h3 style="margin: 8px 0 12px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 28px; font-weight: 600; line-height: 1.15">Speeches &amp; keynotes</h3>
-<p style="margin: 0; color: #3D4A63">From the all-hands to the conference stage: speeches that sound like you on your best day, written to be spoken, not read.</p>
+<section id="services" style="max-width: 1200px; margin: 0 auto; padding: 88px 24px 80px">
+<div style="font-size: 15px; font-weight: 600; color: #7A6233">Services</div>
+<h2 style="margin: 14px 0 28px; font-family: 'Cormorant Garamond', Garamond, serif; font-weight: 600; font-size: clamp(2rem, 3.4vw, 2.75rem); line-height: 1.08">What I write, and how.</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); column-gap: 32px; border-top: 1px solid #DDD8CE">
+<article style="display: flex; gap: 14px; padding: 22px 24px 22px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
+<div style="flex: none; width: 34px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #A88A52; line-height: 1.4">I.</div>
+<div><h3 style="margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.35">Speeches &amp; keynotes</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">From the all-hands to the conference stage, written to be spoken, not read.</p></div>
 </article>
-<article style="flex: 1 1 340px; padding: 36px 32px 40px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #7A6233">II.</div>
-<h3 style="margin: 8px 0 12px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 28px; font-weight: 600; line-height: 1.15">Interviews, panels &amp; media prep</h3>
-<p style="margin: 0; color: #3D4A63">Briefing notes, likely questions, key messages and rehearsal. Walk in prepared, walk out remembered.</p>
+<article style="display: flex; gap: 14px; padding: 22px 24px 22px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
+<div style="flex: none; width: 34px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #A88A52; line-height: 1.4">II.</div>
+<div><h3 style="margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.35">Interviews, panels &amp; media prep</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">Briefing notes, likely questions, key messages and rehearsal.</p></div>
 </article>
-<article style="flex: 1 1 340px; padding: 36px 32px 40px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #7A6233">III.</div>
-<h3 style="margin: 8px 0 12px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 28px; font-weight: 600; line-height: 1.15">Presentations &amp; scripts</h3>
-<p style="margin: 0; color: #3D4A63">Board, investor and conference decks with speaker notes written for the room.</p>
+<article style="display: flex; gap: 14px; padding: 22px 24px 22px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
+<div style="flex: none; width: 34px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #A88A52; line-height: 1.4">III.</div>
+<div><h3 style="margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.35">Presentations &amp; scripts</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">Board, investor and conference decks with speaker notes written for the room.</p></div>
 </article>
-<article style="flex: 1 1 340px; padding: 36px 32px 40px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #7A6233">IV.</div>
-<h3 style="margin: 8px 0 12px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 28px; font-weight: 600; line-height: 1.15">LinkedIn &amp; thought leadership</h3>
-<p style="margin: 0; color: #3D4A63">Posts, articles and opinion pieces on a steady rhythm to build your profile.</p>
+<article style="display: flex; gap: 14px; padding: 22px 24px 22px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
+<div style="flex: none; width: 34px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #A88A52; line-height: 1.4">IV.</div>
+<div><h3 style="margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.35">LinkedIn &amp; thought leadership</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">Posts, articles and opinion pieces on a steady rhythm.</p></div>
 </article>
-<article style="flex: 1 1 340px; padding: 36px 32px 40px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #7A6233">V.</div>
-<h3 style="margin: 8px 0 12px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 28px; font-weight: 600; line-height: 1.15">Internal communications</h3>
-<p style="margin: 0; color: #3D4A63">Leadership updates, intranet articles and newsletters people actually read to the end.</p>
+<article style="display: flex; gap: 14px; padding: 22px 24px 22px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
+<div style="flex: none; width: 34px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #A88A52; line-height: 1.4">V.</div>
+<div><h3 style="margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.35">Internal communications</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">Leadership updates, intranet articles and newsletters people read to the end.</p></div>
 </article>
-<article style="flex: 1 1 340px; padding: 36px 32px 40px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #7A6233">VI.</div>
-<h3 style="margin: 8px 0 12px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 28px; font-weight: 600; line-height: 1.15">Papers &amp; submissions</h3>
-<p style="margin: 0; color: #3D4A63">White papers, technical papers and conference submissions, turned from expert notes into clear, credible prose.</p>
+<article style="display: flex; gap: 14px; padding: 22px 24px 22px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
+<div style="flex: none; width: 34px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #A88A52; line-height: 1.4">VI.</div>
+<div><h3 style="margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.35">Papers &amp; submissions</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">White papers, technical papers and conference submissions, made clear and credible.</p></div>
 </article>
-<article style="flex: 1 1 340px; padding: 36px 32px 40px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #7A6233">VII.</div>
-<h3 style="margin: 8px 0 12px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 28px; font-weight: 600; line-height: 1.15">Change, reorganisations &amp; rebrands</h3>
-<p style="margin: 0; color: #3D4A63">For the once-in-a-while moments: announcement sequences, manager talking points and rollout. Scoped and quoted as projects.</p>
+<article style="display: flex; gap: 14px; padding: 22px 24px 22px 0; box-sizing: border-box; border-bottom: 1px solid #DDD8CE">
+<div style="flex: none; width: 34px; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 18px; font-weight: 600; color: #A88A52; line-height: 1.4">VII.</div>
+<div><h3 style="margin: 0 0 4px; font-size: 16px; font-weight: 600; line-height: 1.35">Change, reorganisations &amp; rebrands</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">Announcements, manager talking points and rollout, quoted as projects.</p></div>
 </article>
+</div>
+<div style="margin-top: 48px; font-size: 15px; font-weight: 600; color: #7A6233; margin-bottom: 20px">How it works</div>
+<div style="display: flex; flex-wrap: wrap; gap: 28px 40px">
+<div style="flex: 1 1 260px; display: flex; gap: 14px">
+<div style="flex: none; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 34px; font-weight: 600; line-height: 1; color: #A88A52">1</div>
+<div><h3 style="margin: 2px 0 4px; font-size: 16px; font-weight: 600">Brief</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">A short conversation, voice note or bullet list: the audience, the tone and the message.</p></div>
+</div>
+<div style="flex: 1 1 260px; display: flex; gap: 14px">
+<div style="flex: none; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 34px; font-weight: 600; line-height: 1; color: #A88A52">2</div>
+<div><h3 style="margin: 2px 0 4px; font-size: 16px; font-weight: 600">Draft</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">A fact-checked first draft in your voice, written for the room, the screen or the feed.</p></div>
+</div>
+<div style="flex: 1 1 260px; display: flex; gap: 14px">
+<div style="flex: none; font-family: 'Cormorant Garamond', Garamond, serif; font-size: 34px; font-weight: 600; line-height: 1; color: #A88A52">3</div>
+<div><h3 style="margin: 2px 0 4px; font-size: 16px; font-weight: 600">Refine</h3><p style="margin: 0; font-size: 15px; line-height: 1.5; color: #3D4A63">Two rounds of revisions, then a final version ready to deliver, publish or send.</p></div>
+</div>
 </div>
 </section>
 
@@ -205,40 +216,18 @@ ml('account', '2752981');
 </div>
 </section>
 
-<section style="max-width: 1200px; margin: 0 auto; padding: 112px 24px 96px">
-<div style="font-size: 15px; font-weight: 600; color: #7A6233; margin-bottom: 40px">How it works</div>
-<div style="display: flex; flex-wrap: wrap; gap: 40px">
-<div style="flex: 1 1 280px">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 56px; font-weight: 600; line-height: 1; color: #A88A52">1</div>
-<h3 style="margin: 16px 0 10px; font-size: 19px; font-weight: 600">Brief</h3>
-<p style="margin: 0; color: #3D4A63">A short conversation, voice note or bullet list: the audience, the tone, and the message you want to leave behind.</p>
-</div>
-<div style="flex: 1 1 280px">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 56px; font-weight: 600; line-height: 1; color: #A88A52">2</div>
-<h3 style="margin: 16px 0 10px; font-size: 19px; font-weight: 600">Draft</h3>
-<p style="margin: 0; color: #3D4A63">A fact-checked first draft in your voice, structured for the room, the screen or the feed it’s headed for.</p>
-</div>
-<div style="flex: 1 1 280px">
-<div style="font-family: 'Cormorant Garamond', Garamond, serif; font-size: 56px; font-weight: 600; line-height: 1; color: #A88A52">3</div>
-<h3 style="margin: 16px 0 10px; font-size: 19px; font-weight: 600">Refine</h3>
-<p style="margin: 0; color: #3D4A63">Two rounds of revisions, then a final version ready to deliver, publish or send.</p>
-</div>
-</div>
-</section>
-
 <section id="prep-sheet" style="background: #F5F0E4; border-top: 1px solid #E6E2DA">
 <div style="max-width: 1200px; margin: 0 auto; padding: 104px 24px 96px; display: flex; flex-wrap: wrap; gap: 64px; align-items: center">
 <div style="flex: 1 1 420px; min-width: 0">
 <div style="font-size: 15px; font-weight: 600; color: #7A6233">Free resource</div>
 <h2 style="margin: 14px 0 20px; font-family: 'Cormorant Garamond', Garamond, serif; font-weight: 600; font-size: clamp(2.2rem, 4vw, 3.25rem); line-height: 1.08">The interview prep sheet.</h2>
-<p style="margin: 0 0 24px; font-size: 18px; color: #3D4A63">A free, fill-in template for preparing a leader for a media interview, for CEOs, comms leads and chiefs of staff. It takes you through:</p>
+<p style="margin: 0 0 24px; font-size: 18px; color: #3D4A63">A free fill-in template that walks CEOs, comms leads and chiefs of staff through getting ready for a media interview. It covers:</p>
 <ul style="margin: 0; padding: 0 0 0 18px; display: flex; flex-direction: column; gap: 10px; font-size: 16px">
-<li>Prepping on the CEO’s behalf: what to ask for, and how to draw a red thread</li>
-<li>Before you say yes: the journalist, the story and the format</li>
-<li>Your three key messages, with proof for each</li>
-<li>The five hardest questions, each with a short answer, a bridge and a one-line quote</li>
-<li>A fact check, a 30-minute rehearsal and a day-of checklist</li>
-<li>A ready-made prompt to audit the finished prep with AI</li>
+<li>The questions to ask before you say yes</li>
+<li>Shaping the messages you want to land</li>
+<li>Preparing for the questions you could be asked</li>
+<li>What to check before you say it</li>
+<li>Rehearsal, the day itself and a final AI review</li>
 </ul>
 </div>
 <div style="flex: 1 1 400px; min-width: 0; background: #FFFFFF; border: 1px solid #DDD8CE; padding: 36px 32px; box-sizing: border-box">
@@ -246,7 +235,7 @@ ml('account', '2752981');
 <div aria-hidden="true" style="width: 46px; height: 60px; flex: none; background: #1B2D4F; display: flex; align-items: center; justify-content: center; box-shadow: 4px 4px 0 #C9AD78"><svg width="18" height="30" viewBox="20 12 46 76"><path fill="#C9AD78" d="M39.31 47.73L53.45 86H64.11L48.69 44.27Z"></path><path fill="#FFFFFF" d="M22 14H43V21H22Z M22 14H29V86H22Z M36 14H43V86H36Z"></path><path fill="#FFFFFF" d="M43 14A20 20 0 0 1 43 54Z"></path></svg></div>
 <div><div style="font-weight: 600; font-size: 17px">Get the sheet by email</div><div style="font-size: 14px; color: #5C5446">Free template · 5-page PDF</div></div>
 </div>
-<p style="margin: 0 0 18px; font-size: 15px; color: #3D4A63">Enter your email and confirm it, and the template is yours. You’ll also get occasional notes on executive communication, once or twice a month at most. Unsubscribe anytime.</p>
+<p style="margin: 0 0 18px; font-size: 15px; color: #3D4A63">Confirm your email and the template is yours, along with a short note on executive communication once or twice a month.</p>
 <div class="ml-embedded" data-form="etHNpP"></div>
 <p style="margin: 18px 0 0; font-size: 13px; color: #5C5446">Form not loading? Email <a href="mailto:ready@thereadyword.com?subject=Interview%20prep%20sheet">ready@thereadyword.com</a> and I’ll send it over.</p>
 </div>
